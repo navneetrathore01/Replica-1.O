@@ -1,62 +1,74 @@
-body{
+body {
     background-color: #0e0e0e;
-    
-   font-style: initial;
+
+    font-style: initial;
     color: whitesmoke;
 }
-#side{
-    background-color: black ;
+
+#side {
+    background-color: black;
     width: 23%;
     height: 85%;
 }
-.spotify{
+
+.spotify {
     color: white;
     font-style: oblique;
 }
-.home{
+
+.home {
     color: whitesmoke;
 
 }
-.home{
+
+.home {
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.search{
+
+.search {
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.library{
+
+.library {
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.playlist{
+
+.playlist {
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.liked{
+
+.liked {
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.episodes{
+
+.episodes {
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.install{
+
+.install {
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.menu:hover{
+
+.menu:hover {
     background-color: #282828;
     cursor: pointer;
 }
-#footer{
+
+#footer {
     background-color: rgb(24, 24, 24);
     height: 15%;
     width: 100%;
@@ -64,7 +76,8 @@ body{
     bottom: 0%;
     border-top: white 10px;
 }
-.song-logo{
+
+.song-logo {
     margin-left: 40px;
     margin-top: 10px;
     display: flex;
@@ -72,105 +85,123 @@ body{
     gap: 15px;
 }
 
-.singer{
+.singer {
     font-size: 10px;
 }
-.button{
+
+.button {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: -80px;
 }
-.button:hover{
+
+.button:hover {
     cursor: pointer;
 }
-.time-bar{
+
+.time-bar {
     margin-left: 315px;
     display: flex;
 
 }
-#main{
+
+#main {
     margin-left: 25%;
     margin-top: -610px;
-    
+
 }
-.arrow{
+
+.arrow {
     display: flex;
 }
-.arrow:hover{
+
+.arrow:hover {
     cursor: pointer;
 }
-.right{
+
+.right {
     margin-left: 20px;
     background-color: black;
     border-radius: 50%;
 }
-.left{
+
+.left {
     margin-left: 20px;
     background-color: black;
     border-radius: 50%;
 }
-.search-box{
+
+.search-box {
     width: 500px;
     border-radius: 20px;
     height: 40px;
     margin-left: 100px;
-    background-image: url(search.svg) ;
+    background-image: url(search.svg);
     background-repeat: no-repeat;
     padding-left: 50px;
     background-position-x: 5px;
     background-position-y: 4px;
 
-    
+
 }
-.row1{
+
+.row1 {
     margin-left: 25%;
     display: flex;
     gap: 25px;
 }
-.a1{
+
+.a1 {
     background-color: #8d67ab;
     width: 440px;
     height: 175px;
     border-radius: 10px;
-    
+
 }
-.a2{
+
+.a2 {
     background-color: #ba5d07;
     width: 440px;
     height: 175px;
     border-radius: 10px;
-    
+
 }
-.row2{
+
+.row2 {
     margin-left: 25%;
     display: flex;
     gap: 25px;
 }
-.b1{
+
+.b1 {
     background-color: #27856a;
     width: 220px;
     height: 165px;
-    border-radius:10px;
+    border-radius: 10px;
 }
-.b2{
+
+.b2 {
     background-color: #1e3264;
     width: 220px;
     height: 165px;
-    border-radius:10px;
+    border-radius: 10px;
 }
-.b3{
+
+.b3 {
     background-color: #8d67ab;
     width: 220px;
     height: 165px;
-    border-radius:10px;
+    border-radius: 10px;
 }
-.b4{
+
+.b4 {
     background-color: #e8115b;
     width: 220px;
     height: 165px;
-    border-radius:10px;
+    border-radius: 10px;
 }
-.title:hover{
+
+.title:hover {
     cursor: pointer;
 }
