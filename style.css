@@ -1,7 +1,10 @@
+@import url('https://db.onlinewebfonts.com/c/1bc2daddba36ba331fc4fa67828eabdc?family=CircularSpotifyTxT-Med');
+
+*{
+    font-family: "CircularSpotifyTxT-Med";
+}
 body {
     background-color: #0e0e0e;
-
-    font-style: initial;
     color: whitesmoke;
 }
 
@@ -13,7 +16,6 @@ body {
 
 .spotify {
     color: white;
-    font-style: oblique;
 }
 
 .home {
@@ -108,7 +110,7 @@ body {
 
 #main {
     margin-left: 25%;
-    margin-top: -610px;
+    margin-top: -48%;
 
 }
 
