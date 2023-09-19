@@ -1,0 +1,176 @@
+body{
+    background-color: #0e0e0e;
+    
+   font-style: initial;
+    color: whitesmoke;
+}
+#side{
+    background-color: black ;
+    width: 23%;
+    height: 85%;
+}
+.spotify{
+    color: white;
+    font-style: oblique;
+}
+.home{
+    color: whitesmoke;
+
+}
+.home{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.library{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.playlist{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.liked{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.episodes{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.install{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.menu:hover{
+    background-color: #282828;
+    cursor: pointer;
+}
+#footer{
+    background-color: rgb(24, 24, 24);
+    height: 15%;
+    width: 100%;
+    position: fixed;
+    bottom: 0%;
+    border-top: white 10px;
+}
+.song-logo{
+    margin-left: 40px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.singer{
+    font-size: 10px;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -80px;
+}
+.button:hover{
+    cursor: pointer;
+}
+.time-bar{
+    margin-left: 315px;
+    display: flex;
+
+}
+#main{
+    margin-left: 25%;
+    margin-top: -610px;
+    
+}
+.arrow{
+    display: flex;
+}
+.arrow:hover{
+    cursor: pointer;
+}
+.right{
+    margin-left: 20px;
+    background-color: black;
+    border-radius: 50%;
+}
+.left{
+    margin-left: 20px;
+    background-color: black;
+    border-radius: 50%;
+}
+.search-box{
+    width: 500px;
+    border-radius: 20px;
+    height: 40px;
+    margin-left: 100px;
+    background-image: url(search.svg) ;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    background-position-x: 5px;
+    background-position-y: 4px;
+
+    
+}
+.row1{
+    margin-left: 25%;
+    display: flex;
+    gap: 25px;
+}
+.a1{
+    background-color: #8d67ab;
+    width: 440px;
+    height: 175px;
+    border-radius: 10px;
+    
+}
+.a2{
+    background-color: #ba5d07;
+    width: 440px;
+    height: 175px;
+    border-radius: 10px;
+    
+}
+.row2{
+    margin-left: 25%;
+    display: flex;
+    gap: 25px;
+}
+.b1{
+    background-color: #27856a;
+    width: 220px;
+    height: 165px;
+    border-radius:10px;
+}
+.b2{
+    background-color: #1e3264;
+    width: 220px;
+    height: 165px;
+    border-radius:10px;
+}
+.b3{
+    background-color: #8d67ab;
+    width: 220px;
+    height: 165px;
+    border-radius:10px;
+}
+.b4{
+    background-color: #e8115b;
+    width: 220px;
+    height: 165px;
+    border-radius:10px;
+}
+.title:hover{
+    cursor: pointer;
+}
